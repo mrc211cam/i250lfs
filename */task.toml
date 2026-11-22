@@ -1,0 +1,13 @@
+schema_version = "1.4"
+
+[agent]
+timeout_sec = 120.0
+
+[verifier]
+timeout_sec = 60.0
+network_mode = "public"
+
+[environment]
+docker_image = "python:3.12-slim-bookworm"
+workdir = "/app"
+network_mode = "public"
